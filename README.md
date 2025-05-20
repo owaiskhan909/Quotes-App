@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# ✨ Daily Quotes - My First Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is my **first-ever mobile app**, built using **React Native** with **Expo**. It's a simple but meaningful project for me — a collection of motivational quotes that can inspire anyone, including myself, to keep going every day.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 What It Does
 
-   ```bash
-   npm install
-   ```
+> Shows a new motivational quote each time you tap "Next Quote".  
+> Includes smooth fade-in animation, clean UI, and lots of inspiring content.  
 
-2. Start the app
+Perfect for a daily dose of motivation 💡
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🌟 Why I Made This
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+As a beginner in mobile app development, I wanted to start small but meaningful. This project helped me understand:
+- How React Native works
+- How to use Expo
+- Basic animation with the `Animated` API
+- Using `useState` and `useRef` hooks
+- Styling and layouts in React Native
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+It may be simple, but it means a lot to me as my **first step** into mobile app development. 🚀
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ⚙️ Tech Stack
+
+- **React Native** (with Expo)
+- **JavaScript (ES6+)**
+- **Animated API**
+- **Hooks** (`useState`, `useRef`)
+- **Expo CLI**
+
+---
+
+## 💻 Setup Instructions
+
+### Prerequisites
+- Node.js
+- Expo Go app on your phone (iOS/Android)
+- Expo CLI (install with `npm install -g expo-cli`)
+
+### Steps to Run
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/owaiskhan909/daily-quotes-app.git
+cd daily-quotes-app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npx expo start
